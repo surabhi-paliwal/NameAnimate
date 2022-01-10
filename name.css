@@ -1,0 +1,158 @@
+div{
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    animation-name: myanime;
+    animation-duration: 10s;
+  }
+  
+  #s{
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    animation-name: s;
+    animation-duration: 10s;}
+  
+  #u{
+    width: 40px;
+    height: 40px;
+        background-color: burlywood;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 30px;
+        animation-name: u;
+        animation-duration: 10s;
+        position: relative;
+    }
+  
+    #r{
+      width: 40px;
+    height: 40px;
+      background-color: burlywood;
+      border-radius: 20px;
+      padding: 30px;
+      margin: 30px;
+      animation-name: r;
+      animation-duration: 10s;
+      position: relative;
+  }
+  
+  #a{
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    animation-name: a;
+    animation-duration: 10s;
+    position: relative;
+  }
+  
+  #b{
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    animation-name: b;
+    animation-duration: 10s;
+    position: relative;
+  }
+  
+  #h{
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    animation-name: h;
+    animation-duration: 10s;
+    position: relative;
+  }
+  
+  #i{
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    animation-name: i;
+    animation-duration: 10s;
+    position: relative;
+  }
+  
+  
+  @keyframes myanime{
+    /*at 10, 30 ,50 percent of the total time the animation will take the given colour,
+    like at 30 percent of 6 seconds colour will be coral and so on
+    the border radius just alters its shape a bit at given points of time*/
+    10%{background-color: burlywood;}
+    30%{background-color: coral; border-radius: 150px;}
+    70%{background-color: lightcoral; border-radius: 150px;}
+    100%{background-color: lightgoldenrodyellow;}
+  
+  }
+  
+  @keyframes s{
+    20%{background-color: burlywood;}
+    40%{background-color: plum;}
+    100%{background-color: coral;}
+    
+  }
+  
+  @keyframes u{
+    /*at 10, 30*/
+    20%{background-color: burlywood; top: 0px; left: 0px;}
+    40%{background-color:palevioletred; top: 0px; left: 103px;}
+    100%{background-color: coral; top: -130px; left: 103px;}
+  
+  }
+  
+  @keyframes r{
+    /*at 10, 30*/
+    20%{background-color: burlywood; top: 0px; left: 0px;}
+    40%{background-color: pink; top: 0px; left: 208px;}
+    100%{background-color: coral; top: -261px; left: 208px;}
+  
+  }
+  @keyframes a{
+    /*at 10, 30*/
+    20%{background-color: burlywood; top: 0px; left: 0px;}
+    40%{background-color: rosybrown; top: 0px; left: 311px;}
+    100%{background-color: coral; top: -393px; left: 311px;}
+  
+  }
+  @keyframes b{
+    /*at 10, 30*/
+    20%{background-color: burlywood; top: 0px; left: 0px;}
+    40%{background-color: lightpink; top: 0px; left: 416px;}
+    100%{background-color: coral; top: -523px; left: 416px;}
+  
+  }
+  @keyframes h{
+    /*at 10, 30*/
+    20%{background-color: burlywood; top: 0px; left: 0px;}
+    40%{background-color: plum; top: 0px; left: 520px;}
+    100%{background-color: coral; top: -650px; left: 520px;}
+  
+  }
+  
+  @keyframes i{
+    /*at 10, 30*/
+    20%{background-color: burlywood; top: 0px; left: 0px;}
+    40%{background-color: palevioletred; top: 0px; left: 400px;}
+    100%{background-color: coral; top: -780px; left: 624px;}
+  
+  }
+  
+  /*# sourceMappingURL=sass.css.map */
